@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SavEats</string>
+    <string name="background_img1">Background Image 1</string>
+    <string name="white_bg1">White Background 1</string>
+    <string name="food_img">Food Image</string>
+    <string name="food_name">Adobong Manok with Rice</string>
+    <string name="price">Php 80</string>
+    <string name="stall">Stall 20</string>
+    <string name="know_more">Know More</string>
+    <string name="try_again_btn">Try Again</string>
 </resources>
