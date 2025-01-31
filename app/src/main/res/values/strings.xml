@@ -3,7 +3,6 @@
 
     <string name="onboarding">Onboarding</string>
 
-
     <string name="background_img1">Background Image 1</string>
     <string name="white_bg1">White Background 1</string>
     <string name="food_img">Food Image</string>
@@ -12,4 +11,9 @@
     <string name="stall">Stall 20</string>
     <string name="know_more">Know More</string>
     <string name="try_again_btn">Try Again</string>
+
+    <string name="macroutrients">Macroutrients</string>
+    <string name="health_benefits">Health Benefits</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="back">Back</string>
 </resources>
