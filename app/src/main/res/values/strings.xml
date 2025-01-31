@@ -3,6 +3,8 @@
 
     <string name="onboarding">Onboarding</string>
     <string name="lets_eat">"Let's Eat"</string>
+    <string name="insert_value">Insert Value</string>
+    <string name="next">Next</string>
 
     <string name="background_img1">Background Image 1</string>
     <string name="white_bg1">White Background 1</string>
