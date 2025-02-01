@@ -6,6 +6,11 @@
     <string name="insert_value">Insert Value</string>
     <string name="next">Next</string>
 
+    <string name="rice_meal">Rice Meal</string>
+    <string name="bread">Bread</string>
+    <string name="snacks">Snacks</string>
+    <string name="beverages">Beverages</string>
+
     <string name="background_img1">Background Image 1</string>
     <string name="white_bg1">White Background 1</string>
     <string name="food_img">Food Image</string>
