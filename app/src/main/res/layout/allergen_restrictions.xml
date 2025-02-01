@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/background_img1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/allergen_restrictions" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#97A87C"
+        android:fontFamily="@font/lilita_one"
+        android:text="@string/back"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#97A87C"
+        android:fontFamily="@font/lilita_one"
+        android:text="@string/next"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="151dp"
+        android:layout_height="132dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/gluten_free"
+        android:text="@string/gluten_free"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="151dp"
+        android:layout_height="132dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/dairy_free"
+        android:text="@string/dairy_free"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="151dp"
+        android:layout_height="132dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/nut_free"
+        android:text="@string/nut_free"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="151dp"
+        android:layout_height="132dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/soy_free"
+        android:text="@string/soy_free"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="151dp"
+        android:layout_height="132dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/seafood_free"
+        android:text="@string/seafood_free"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="148dp"
+        android:layout_height="128dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTop="@drawable/none"
+        android:text="@string/none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,6 +15,11 @@
     <string name="pescatarian">Pescatarian</string>
     <string name="halal">Halal</string>
     <string name="kosher">Kosher</string>
+    <string name="gluten_free">Gluten-Free</string>
+    <string name="dairy_free">Dairy-Free</string>
+    <string name="nut_free">Nut-Free</string>
+    <string name="soy_free">Soy-Free</string>
+    <string name="seafood_free">Seafood-Free</string>
     <string name="none">None</string>
 
     <string name="background_img1">Background Image 1</string>
