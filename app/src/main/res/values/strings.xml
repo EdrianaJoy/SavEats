@@ -20,6 +20,11 @@
     <string name="nut_free">Nut-Free</string>
     <string name="soy_free">Soy-Free</string>
     <string name="seafood_free">Seafood-Free</string>
+    <string name="low_carb">Low-Carb</string>
+    <string name="low_fat">Low-Fat</string>
+    <string name="high_protein">High-Protein</string>
+    <string name="low_sugar">Low-Sugar</string>
+    <string name="low_sodium">Low-Sodium</string>
     <string name="none">None</string>
 
     <string name="background_img1">Background Image 1</string>
