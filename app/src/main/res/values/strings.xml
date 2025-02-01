@@ -10,6 +10,12 @@
     <string name="bread">Bread</string>
     <string name="snacks">Snacks</string>
     <string name="beverages">Beverages</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="vegan">Vegan</string>
+    <string name="pescatarian">Pescatarian</string>
+    <string name="halal">Halal</string>
+    <string name="kosher">Kosher</string>
+    <string name="none">None</string>
 
     <string name="background_img1">Background Image 1</string>
     <string name="white_bg1">White Background 1</string>
