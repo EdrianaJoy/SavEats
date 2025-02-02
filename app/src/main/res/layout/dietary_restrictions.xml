@@ -25,6 +25,7 @@
         android:fontFamily="@font/lilita_one"
         android:text="@string/back"
         android:textSize="20sp"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.117"
@@ -40,6 +41,7 @@
         android:fontFamily="@font/lilita_one"
         android:text="@string/next"
         android:textSize="20sp"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.875"
@@ -47,55 +49,59 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.962" />
 
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="151dp"
-        android:layout_height="134dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/vegetarian"
-        android:text="@string/vegetarian"
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="152dp"
+        android:layout_height="132dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/vegetarian"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276" />
+        app:layout_constraintVertical_bias="0.28" />
 
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="142dp"
-        android:layout_height="133dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/vegan"
-        android:text="@string/vegan"
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="152dp"
+        android:layout_height="132dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/vegan"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintHorizontal_bias="0.858"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.275" />
+        app:layout_constraintVertical_bias="0.279" />
 
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="128dp"
-        android:layout_height="129dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/pescatarian"
-        android:text="@string/pescatarian"
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="152dp"
+        android:layout_height="132dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/pescatarian"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.538" />
+        app:layout_constraintVertical_bias="0.541" />
 
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="153dp"
-        android:layout_height="134dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/halal"
-        android:text="@string/halal"
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="152dp"
+        android:layout_height="132dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/halal"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.858"
@@ -103,31 +109,34 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.541" />
 
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="151dp"
-        android:layout_height="134dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/kosher"
-        android:text="@string/kosher"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="152dp"
+        android:layout_height="132dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/kosher"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintVertical_bias="0.799" />
 
-    <Button
-        android:id="@+id/button18"
-        android:layout_width="148dp"
-        android:layout_height="128dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/none"
-        android:text="@string/none"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.867"
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="152dp"
+        android:layout_height="132dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/none"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.858"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.803" />
+        app:layout_constraintVertical_bias="0.799" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
