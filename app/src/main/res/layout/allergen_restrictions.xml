@@ -132,7 +132,7 @@
         android:layout_height="112dp"
         android:background="@drawable/checkbox_background"
         android:button="@null"
-        android:foreground="@drawable/gluten_free"
+        android:foreground="@drawable/none"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"

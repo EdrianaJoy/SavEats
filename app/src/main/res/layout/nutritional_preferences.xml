@@ -24,6 +24,7 @@
         android:fontFamily="@font/lilita_one"
         android:text="@string/back"
         android:textSize="20sp"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.117"
@@ -39,6 +40,7 @@
         android:fontFamily="@font/lilita_one"
         android:text="@string/next"
         android:textSize="20sp"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.875"
@@ -46,87 +48,95 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.962" />
 
-    <Button
-        android:id="@+id/button26"
-        android:layout_width="145dp"
-        android:layout_height="131dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/low_carb"
-        android:text="@string/low_carb"
+    <CheckBox
+        android:id="@+id/checkBox17"
+        android:layout_width="132dp"
+        android:layout_height="112dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/low_carb"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_bias="0.18"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintVertical_bias="0.317" />
 
-    <Button
-        android:id="@+id/button27"
-        android:layout_width="151dp"
-        android:layout_height="134dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/low_fat"
-        android:text="@string/low_fat"
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="132dp"
+        android:layout_height="112dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/low_fat"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <CheckBox
+        android:id="@+id/checkBox19"
+        android:layout_width="132dp"
+        android:layout_height="112dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/high_protein"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.859"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
-
-    <Button
-        android:id="@+id/button28"
-        android:layout_width="151dp"
-        android:layout_height="134dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/high_protein"
-        android:text="@string/high_protein"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.169"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
-
-    <Button
-        android:id="@+id/button29"
-        android:layout_width="151dp"
-        android:layout_height="134dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/low_sugar"
-        android:text="@string/low_sugar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
-
-    <Button
-        android:id="@+id/button30"
-        android:layout_width="151dp"
-        android:layout_height="134dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/low_sodium"
-        android:text="@string/low_sodium"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.18"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815" />
+        app:layout_constraintVertical_bias="0.569" />
 
-    <Button
-        android:id="@+id/button31"
-        android:layout_width="148dp"
-        android:layout_height="128dp"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/none"
-        android:text="@string/none"
+    <CheckBox
+        android:id="@+id/checkBox20"
+        android:layout_width="132dp"
+        android:layout_height="112dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/low_sugar"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.568" />
+
+    <CheckBox
+        android:id="@+id/checkBox21"
+        android:layout_width="132dp"
+        android:layout_height="112dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/low_sodium"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+    <CheckBox
+        android:id="@+id/checkBox22"
+        android:layout_width="132dp"
+        android:layout_height="112dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@null"
+        android:foreground="@drawable/none"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
