@@ -20,7 +20,7 @@
 
     <EditText
         android:id="@+id/editTextText2"
-        android:layout_width="350dp"
+        android:layout_width="320dp"
         android:layout_height="70dp"
         android:background="@drawable/rounded_background"
         android:backgroundTint="#FFFFFF"
@@ -30,6 +30,7 @@
         android:inputType="text"
         android:padding="20dp"
         android:textSize="25sp"
+        android:textColor="#000000"
         android:contentDescription="@string/insert_value"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
@@ -46,11 +47,12 @@
         android:contentDescription="@string/next"
         android:fontFamily="@font/lilita_one"
         android:text="@string/next"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
         app:layout_constraintTop_toTopOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.853" />
+        app:layout_constraintVertical_bias="0.848" />
 </androidx.constraintlayout.widget.ConstraintLayout>
