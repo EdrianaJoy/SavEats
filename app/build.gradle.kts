@@ -40,4 +40,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("org.apache.poi:poi:5.2.3") // For .xls
+    implementation("org.apache.poi:poi-ooxml:5.2.3") // For .xlsx
 }
